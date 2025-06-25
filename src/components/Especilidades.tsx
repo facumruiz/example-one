@@ -1,4 +1,3 @@
-// src/components/Especialidades.tsx
 import React from 'react'
 import { Briefcase, Gavel, Users, ShieldCheck } from 'lucide-react'
 
@@ -44,7 +43,7 @@ const Especialidades: React.FC = () => {
         <div className="row">
           {especialidades.map((area, index) => (
             <div className="col-md-6 col-lg-3 mb-4 d-flex" key={index}>
-              <div className="card shadow-sm border-0 w-100 text-center p-4 h-100">
+              <div className="card card-hover-effect shadow-sm border-0 w-100 text-center p-4 h-100">
                 <div>{area.icon}</div>
                 <h5 className="mt-3 font-weight-bold">{area.titulo}</h5>
                 <h6 className="text-muted">{area.subtitulo}</h6>

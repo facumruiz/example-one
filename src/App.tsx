@@ -5,6 +5,10 @@ import Especialidades from './components/Especilidades'
 import Resenas from './components/Resenas'
 import Contacto from './components/Contacto'
 import WhatsAppButton from './components/WhatsAppButton'
+import Contadores from './components/Contadores'
+import Blogs from './components/Blogs'
+
+import "./App.css"
 
 const App = () => {
   return (
@@ -12,7 +16,9 @@ const App = () => {
       <Navbar />
       <Hero />
       <Especialidades />
+      <Contadores />
       <Resenas />
+      <Blogs/>
       <Contacto />
       <WhatsAppButton />
 

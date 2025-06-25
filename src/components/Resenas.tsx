@@ -32,7 +32,11 @@ const renderStars = (count: number) => {
   const stars = [];
   for (let i = 1; i <= 5; i++) {
     stars.push(
-      <span key={i} className={`me-1 ${i <= count ? 'text-warning' : 'text-secondary'}`} style={{ fontSize: '1.1rem' }}>
+      <span
+        key={i}
+        className={`me-1 ${i <= count ? 'text-warning' : 'text-secondary'}`}
+        style={{ fontSize: '1.1rem' }}
+      >
         ★
       </span>
     );
@@ -60,7 +64,7 @@ const Resenas: React.FC = () => {
                 href={testimonio.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="card shadow-sm border-0 p-4 w-100 d-flex flex-column text-decoration-none text-dark"
+                className="card card-hover-effect shadow-sm border-0 p-4 w-100 d-flex flex-column text-decoration-none text-dark"
                 style={{ cursor: 'pointer' }}
               >
                 <div className="d-flex align-items-center mb-3">
